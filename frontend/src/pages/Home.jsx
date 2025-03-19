@@ -205,7 +205,7 @@ const Home = ({refreshFlag}) => {
       className="flex justify-between items-center p-4 bg-white shadow-lg rounded-2xl border border-gray-200"
     >
       {/* Left Section (Title & Amount) */}
-      <div>
+      <div className="flex flex-col items-start">
         <p className="font-semibold text-lg">{title}</p>
         <p className="text-red-500 font-bold text-xl">${amount}</p>
       </div>
